@@ -10,6 +10,10 @@ echo ""
 echo "----------------------------------------"
 echo ""
 echo "----------------------------------------"
+cd $SAUCE
+repo sync -c -d -f -j16 --force-sync
+echo ""
+echo "----------------------------------------"
 cd $SAUCE/bionic
 git branch -D aosp-7.0
 echo ""
