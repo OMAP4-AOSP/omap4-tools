@@ -4,8 +4,8 @@ SAUCE=~/android/aosp-6.0
 
 echo "----------------------------------------"
 echo ""
-echo "          F O R C E  P U S H            "
-echo "       UPDATE OMAP4-AOSP PROJECT        "
+echo "        C L E A N  B R A N C H          "
+echo "          OMAP4-AOSP PROJECT            "
 echo ""
 echo "----------------------------------------"
 echo ""
