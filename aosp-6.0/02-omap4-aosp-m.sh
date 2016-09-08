@@ -16,48 +16,48 @@ cd $SAUCE/build
 git remote add base https://android.googlesource.com/platform/build
 git fetch base
 git checkout $NEWTAG
-git fetch https://github.com/OMAP4-AOSP/android_build.git android-6.0.1_r61-omap4
-git cherry-pick b19d9918214bb4bf70ee630836d92f2c89cf44b4^..63e19bcacd9413db25f99aebdecb9cf2699ca78d
+git fetch https://github.com/OMAP4-AOSP/android_build.git android-6.0.1_r66-omap4
+git cherry-pick 4f20d76^..bb01371
 echo ""
 echo "----------------------------------------"
 cd $SAUCE/frameworks/av
 git remote add base https://android.googlesource.com/platform/frameworks/av
 git fetch base
 git checkout $NEWTAG
-git fetch https://github.com/OMAP4-AOSP/android_frameworks_av.git android-6.0.1_r61-omap4
-git cherry-pick 755ac8197e72bad6e7666071b228872a68d7f553^..490e4fd3696fd9ff857b01fac3c70cf60ba25660
+git fetch https://github.com/OMAP4-AOSP/android_frameworks_av.git android-6.0.1_r66-omap4
+git cherry-pick 6ffb973^..3a7aef9
 echo ""
 echo "----------------------------------------"
 cd $SAUCE/frameworks/base
 git remote add base https://android.googlesource.com/platform/frameworks/base
 git fetch base
 git checkout $NEWTAG
-git fetch https://github.com/OMAP4-AOSP/android_frameworks_base.git android-6.0.1_r61-omap4
-git cherry-pick a863337861c0239025e36d7f960dd1f1e36b2c5e^..bcbc6d06a9596cdcb20f2cc3da3142fc403faf19
+git fetch https://github.com/OMAP4-AOSP/android_frameworks_base.git android-6.0.1_r66-omap4
+git cherry-pick b8f2576^..4dadb79
 echo ""
 echo "----------------------------------------"
 cd $SAUCE/frameworks/native
 git remote add base https://android.googlesource.com/platform/frameworks/native
 git fetch base
 git checkout $NEWTAG
-git fetch https://github.com/OMAP4-AOSP/android_frameworks_native.git android-6.0.1_r61-omap4
-git cherry-pick 8c664b4d388ddffb757c800dbc058f8e0b237b7b^..a9105c36116dea770a704230c1067baa31b8b2b6
+git fetch https://github.com/OMAP4-AOSP/android_frameworks_native.git android-6.0.1_r66-omap4
+git cherry-pick a01d47d^..3110d84
 echo ""
 echo "----------------------------------------"
 cd $SAUCE/hardware/ril
 git remote add base https://android.googlesource.com/platform/hardware/ril
 git fetch base
 git checkout $NEWTAG
-git fetch https://github.com/OMAP4-AOSP/android_hardware_ril.git android-6.0.1_r61-omap4
-git cherry-pick c00fab9e650994660c8b35266cfe0145f935cd6c
+git fetch https://github.com/OMAP4-AOSP/android_hardware_ril.git android-6.0.1_r66-omap4
+git cherry-pick ba74987
 echo ""
 echo "----------------------------------------"
 cd $SAUCE/packages/apps/Camera2
 git remote add base https://android.googlesource.com/platform/packages/apps/Camera2
 git fetch base
 git checkout $NEWTAG
-git fetch https://github.com/OMAP4-AOSP/android_packages_apps_Camera2.git android-6.0.1_r61-omap4
-git cherry-pick 5cefd4d4c2e38bc0de49848e1f4c9fdae817403e
+git fetch https://github.com/OMAP4-AOSP/android_packages_apps_Camera2.git android-6.0.1_r66-omap4
+git cherry-pick 10ce2b0
 echo ""
 echo "----------------------------------------"
 echo "----------------------------------------"
