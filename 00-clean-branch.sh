@@ -10,6 +10,9 @@ echo ""
 echo "----------------------------------------"
 echo ""
 echo "----------------------------------------"
+cd $SAUCE
+repo sync -c -d -f -j16 --force-sync
+echo "----------------------------------------"
 cd $SAUCE/build
 git branch -D aosp-6.0
 echo ""
