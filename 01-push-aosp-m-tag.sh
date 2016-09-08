@@ -1,7 +1,7 @@
 #!/bin/bash
 # Your build source code directory path. In the example below the build source code directory path is in the "home" folder. If your source code directory is on an external HDD it should look like: //media/your PC username/the name of your storage device/path/to/your/source/code/folder
 SAUCE=~/android/aosp-6.0
-AOSPTAG="android-6.0.1_r68"
+AOSPTAG="android-6.0.1_r66"
 
 echo "----------------------------------------"
 echo ""
