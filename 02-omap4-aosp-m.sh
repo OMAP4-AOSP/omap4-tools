@@ -44,14 +44,6 @@ git fetch https://github.com/OMAP4-AOSP/android_frameworks_native.git android-6.
 git cherry-pick 8c664b4d388ddffb757c800dbc058f8e0b237b7b^..a9105c36116dea770a704230c1067baa31b8b2b6
 echo ""
 echo "----------------------------------------"
-cd $SAUCE/frameworks/opt/telephony
-git remote add base https://android.googlesource.com/platform/frameworks/opt/telephony
-git fetch base
-git checkout $NEWTAG
-git fetch https://github.com/OMAP4-AOSP/android_frameworks_opt_telephony.git android-6.0.1_r61-omap4
-git cherry-pick 3f2019aa990dec9bf66d512a0feeea57b96b3084
-echo ""
-echo "----------------------------------------"
 cd $SAUCE/hardware/ril
 git remote add base https://android.googlesource.com/platform/hardware/ril
 git fetch base

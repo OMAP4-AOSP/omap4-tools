@@ -35,12 +35,6 @@ git fetch base
 git push https://github.com/OMAP4-AOSP/android_frameworks_native.git $AOSPTAG
 echo ""
 echo "----------------------------------------"
-cd $SAUCE/frameworks/opt/telephony
-git remote add base https://android.googlesource.com/platform/frameworks/opt/telephony
-git fetch base
-git push https://github.com/OMAP4-AOSP/android_frameworks_opt_telephony.git $AOSPTAG
-echo ""
-echo "----------------------------------------"
 cd $SAUCE/hardware/ril
 git remote add base https://android.googlesource.com/platform/hardware/ril
 git fetch base

@@ -31,11 +31,6 @@ git tag -a $OMAPTAG -m 'Android 6.0.1 R68 for OMAP4'
 git push https://github.com/OMAP4-AOSP/android_frameworks_native.git $OMAPTAG
 echo ""
 echo "----------------------------------------"
-cd $SAUCE/frameworks/opt/telephony
-git tag -a $OMAPTAG -m 'Android 6.0.1 R68 for OMAP4'
-git push https://github.com/OMAP4-AOSP/android_frameworks_opt_telephony.git $OMAPTAG
-echo ""
-echo "----------------------------------------"
 cd $SAUCE/hardware/ril
 git tag -a $OMAPTAG -m 'Android 6.0.1 R68 for OMAP4'
 git push https://github.com/OMAP4-AOSP/android_hardware_ril.git $OMAPTAG
