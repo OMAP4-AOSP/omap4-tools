@@ -31,24 +31,9 @@ git tag -a $OMAPTAG -m 'Android 7.0.0 R1 for OMAP4'
 git push https://github.com/OMAP4-AOSP/android_frameworks_av.git $OMAPTAG
 echo ""
 echo "----------------------------------------"
-cd $SAUCE/frameworks/base
-git tag -a $OMAPTAG -m 'Android 7.0.0 R1 for OMAP4'
-git push https://github.com/OMAP4-AOSP/android_frameworks_base.git $OMAPTAG
-echo ""
-echo "----------------------------------------"
 cd $SAUCE/frameworks/native
 git tag -a $OMAPTAG -m 'Android 7.0.0 R1 for OMAP4'
 git push https://github.com/OMAP4-AOSP/android_frameworks_native.git $OMAPTAG
-echo ""
-echo "----------------------------------------"
-cd $SAUCE/hardware/ril
-git tag -a $OMAPTAG -m 'Android 7.0.0 R1 for OMAP4'
-git push https://github.com/OMAP4-AOSP/android_hardware_ril.git $OMAPTAG
-echo ""
-echo "----------------------------------------"
-cd $SAUCE/packages/apps/Camera2
-git tag -a $OMAPTAG -m 'Android 7.0.0 R1 for OMAP4'
-git push https://github.com/OMAP4-AOSP/android_packages_apps_Camera2.git $OMAPTAG
 echo ""
 echo "----------------------------------------"
 cd $SAUCE/system/core

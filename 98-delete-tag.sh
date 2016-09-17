@@ -26,16 +26,8 @@ cd $SAUCE/frameworks/av
 git push --delete https://github.com/OMAP4-AOSP/android_frameworks_av.git $1
 echo ""
 echo "----------------------------------------"
-cd $SAUCE/frameworks/base
-git push --delete https://github.com/OMAP4-AOSP/android_frameworks_base.git $1
-echo ""
-echo "----------------------------------------"
 cd $SAUCE/frameworks/native
 git push --delete https://github.com/OMAP4-AOSP/android_frameworks_native.git $1
-echo ""
-echo "----------------------------------------"
-cd $SAUCE/hardware/ril
-git push --delete https://github.com/OMAP4-AOSP/android_hardware_ril.git $1
 echo ""
 echo "----------------------------------------"
 cd $SAUCE/packages/apps/Camera2

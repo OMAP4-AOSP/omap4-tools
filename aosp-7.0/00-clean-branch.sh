@@ -30,23 +30,7 @@ cd $SAUCE/frameworks/av
 git branch -D aosp-7.0
 echo ""
 echo "----------------------------------------"
-cd $SAUCE/frameworks/base
-git branch -D aosp-7.0
-echo ""
-echo "----------------------------------------"
 cd $SAUCE/frameworks/native
-git branch -D aosp-7.0
-echo ""
-echo "----------------------------------------"
-cd $SAUCE/frameworks/opt/telephony
-git branch -D aosp-7.0
-echo ""
-echo "----------------------------------------"
-cd $SAUCE/hardware/ril
-git branch -D aosp-7.0
-echo ""
-echo "----------------------------------------"
-cd $SAUCE/packages/apps/Camera2
 git branch -D aosp-7.0
 echo ""
 echo "----------------------------------------"

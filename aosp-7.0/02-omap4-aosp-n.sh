@@ -44,28 +44,12 @@ git fetch https://github.com/OMAP4-AOSP/android_frameworks_av.git android-7.0.0_
 git cherry-pick 8d20a91^..95215fc
 echo ""
 echo "----------------------------------------"
-cd $SAUCE/frameworks/base
-git remote add base https://android.googlesource.com/platform/frameworks/base
-git fetch base
-git checkout $NEWTAG
-git fetch https://github.com/OMAP4-AOSP/android_frameworks_base.git android-7.0.0_r1-omap4
-git cherry-pick 5275f6e^..e534f07
-echo ""
-echo "----------------------------------------"
 cd $SAUCE/frameworks/native
 git remote add base https://android.googlesource.com/platform/frameworks/native
 git fetch base
 git checkout $NEWTAG
 git fetch https://github.com/OMAP4-AOSP/android_frameworks_native.git android-7.0.0_r1-omap4
 git cherry-pick b157a28^..bdf3c44
-echo ""
-echo "----------------------------------------"
-cd $SAUCE/hardware/ril
-git remote add base https://android.googlesource.com/platform/hardware/ril
-git fetch base
-git checkout $NEWTAG
-git fetch https://github.com/OMAP4-AOSP/android_hardware_ril.git android-7.0.0_r1-omap4
-git cherry-pick 766266f
 echo ""
 echo "----------------------------------------"
 cd $SAUCE/system/core
