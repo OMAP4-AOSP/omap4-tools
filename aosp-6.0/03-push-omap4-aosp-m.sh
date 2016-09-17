@@ -20,19 +20,9 @@ git checkout -b aosp-6.0
 git push https://github.com/OMAP4-AOSP/android_frameworks_av.git HEAD:aosp-6.0 -f
 echo ""
 echo "----------------------------------------"
-cd $SAUCE/frameworks/base
-git checkout -b aosp-6.0
-git push https://github.com/OMAP4-AOSP/android_frameworks_base.git HEAD:aosp-6.0 -f
-echo ""
-echo "----------------------------------------"
 cd $SAUCE/frameworks/native
 git checkout -b aosp-6.0
 git push https://github.com/OMAP4-AOSP/android_frameworks_native.git HEAD:aosp-6.0 -f
-echo ""
-echo "----------------------------------------"
-cd $SAUCE/hardware/ril
-git checkout -b aosp-6.0
-git push https://github.com/OMAP4-AOSP/android_hardware_ril.git HEAD:aosp-6.0 -f
 echo ""
 echo "----------------------------------------"
 cd $SAUCE/packages/apps/Camera2

@@ -23,22 +23,10 @@ git fetch base
 git push https://github.com/OMAP4-AOSP/android_frameworks_av.git $AOSPTAG
 echo ""
 echo "----------------------------------------"
-cd $SAUCE/frameworks/base
-git remote add base https://android.googlesource.com/platform/frameworks/base
-git fetch base
-git push https://github.com/OMAP4-AOSP/android_frameworks_base.git $AOSPTAG
-echo ""
-echo "----------------------------------------"
 cd $SAUCE/frameworks/native
 git remote add base https://android.googlesource.com/platform/frameworks/native
 git fetch base
 git push https://github.com/OMAP4-AOSP/android_frameworks_native.git $AOSPTAG
-echo ""
-echo "----------------------------------------"
-cd $SAUCE/hardware/ril
-git remote add base https://android.googlesource.com/platform/hardware/ril
-git fetch base
-git push https://github.com/OMAP4-AOSP/android_hardware_ril.git $AOSPTAG
 echo ""
 echo "----------------------------------------"
 cd $SAUCE/packages/apps/Camera2

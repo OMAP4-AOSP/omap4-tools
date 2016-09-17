@@ -21,15 +21,7 @@ cd $SAUCE/frameworks/av
 git branch -D aosp-6.0
 echo ""
 echo "----------------------------------------"
-cd $SAUCE/frameworks/base
-git branch -D aosp-6.0
-echo ""
-echo "----------------------------------------"
 cd $SAUCE/frameworks/native
-git branch -D aosp-6.0
-echo ""
-echo "----------------------------------------"
-cd $SAUCE/hardware/ril
 git branch -D aosp-6.0
 echo ""
 echo "----------------------------------------"
